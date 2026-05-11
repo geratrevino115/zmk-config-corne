@@ -18,9 +18,12 @@
 #
 ---
 include:
+  # nice_view_adapter / nice_view_battery quitados temporalmente:
+  # el módulo nice-view-battery (fork) colgaba el firmware al arrancar.
+  # Restaurar a "corne_left nice_view_adapter nice_view_battery" al arreglarlo.
   - board: nice_nano//zmk
-    shield: corne_left nice_view_adapter nice_view_battery
+    shield: corne_left
   - board: nice_nano//zmk
-    shield: corne_right nice_view_adapter nice_view_battery
+    shield: corne_right
   - board: nice_nano//zmk
     shield: settings_reset
