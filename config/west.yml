@@ -4,15 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: infely
-      url-base: https://github.com/infely
+    - name: geratrevino115
+      url-base: https://github.com/geratrevino115
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: nice-view-battery
-      remote: infely
+      remote: geratrevino115
       revision: main
   self:
     path: config
